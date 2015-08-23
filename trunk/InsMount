@@ -1,0 +1,7 @@
+#!/bin/bash
+
+make clean
+mkdir mountpoint &> /dev/null
+insmod compression/zlib_inflate/zlib_inflate.ko
+./compile && insmod ./zstfs.ko && mount -t zstfs -o loop fs mountpoint
+

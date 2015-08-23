@@ -1,0 +1,5 @@
+#!/bin/bash
+
+umount mountpoint
+rmmod zstfs
+rmmod compression/zlib_inflate/zlib_inflate.ko

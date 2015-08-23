@@ -1,0 +1,14 @@
+gcc -c huffman.c
+gcc test.c huffman.o
+./a.out
+
+ho messo in huffman.c tutto l'indispensabile per decomprimere ma da 
+errore.
+Quelli che vedi sopra sono i comandi per compilare e eseguire il test.
+
+
+Dai un occhiata per favore io sono out quasi tutta la sera!!
+
+P.s. Appena risponde massa, scrivimi che ha risposto per favore.
+
+grazie ciao

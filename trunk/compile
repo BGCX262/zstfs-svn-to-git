@@ -1,0 +1,3 @@
+#!/bin/bash
+
+make -C/usr/src/linux -j3 SUBDIRS=$PWD modules
